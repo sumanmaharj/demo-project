@@ -1,0 +1,26 @@
+.fz-sm{
+    font-size: $font-size-sm;
+}
+.fz-lg{
+    font-size: $font-size-lg;
+}
+
+.lh-normal{
+    line-height: normal;
+}
+
+ul.inline-list{
+    li{
+        display: inline-block;
+    }  
+}
+
+
+.page-title{
+    background: $gray-800;
+    padding: 15px 0;
+    color: $white;
+    margin-bottom: 50px;
+}
+
+

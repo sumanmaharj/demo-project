@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%; //~10/16px, where 16px is a default font size of the browser
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    li{
+        line-height: 24px;
+    }
+}
+a,
+button,
+input {
+    outline: none;
+    text-decoration: none;
+    box-shadow: none;
+    
+
+    &:hover,
+         &:focus,
+         &:active,
+         &:active:focus {
+             box-shadow: none;
+             outline: none;
+             text-decoration: none;
+         }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "demo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass  -o assets/css scss --output-style compressed -w"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "uglify-js": "^3.16.0"
+  }
+}

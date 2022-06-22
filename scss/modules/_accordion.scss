@@ -1,0 +1,69 @@
+.statistic-card{
+    &__accordion{
+        
+    }
+}
+
+.nav-pills{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.accordion{
+    &-item{
+        background: $white;
+        margin-bottom: 20px;
+        border: 1px solid #ccc; 
+        border-radius: 4px;
+        &:not(:first-of-type){
+            border-top: 1px solid #ccc ; 
+        }
+    }
+    &-button{
+        background-color: $white;
+        border-radius: 4px;
+        &.collapsed,
+        &:not(.collapsed){
+            background-color: #fff;
+        }
+        &:focus{
+            box-shadow: none;
+        }
+    }
+}
+
+
+.comment-wrap{
+    &__nested{
+        margin-left: 50px;
+        
+    }
+    
+    &__content{
+        margin-bottom: 30px;
+    }
+    .avatar{
+        a{
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            background-color: $gray-500;
+            display: block;
+            overflow: hidden;
+            
+
+            &.has-text{
+                font-size: 16px;
+                text-align: center;
+                line-height: 32px;
+            }
+            
+        }
+    }
+    .comment-field{
+        @include media-breakpoint-up(lg){
+            width: 90%;
+        }
+    }
+}
+

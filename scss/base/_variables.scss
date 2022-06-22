@@ -1,0 +1,40 @@
+
+// scss-docs-start gray-color-variables
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #e5e5e5 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+// scss-docs-start theme-color-variables
+$primary:       $black;
+
+// $font-size-base affects the font size of the body text
+$font-size-base:              1.6rem ; 
+$font-size-sm:                1.4rem;
+$font-size-lg:                1.8rem;
+
+
+$h1-font-size:                3.6rem;
+$h2-font-size:                2.4rem;
+$h3-font-size:                1.8rem;
+
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                   $gray-300 ;
+$body-color:                $black;
+$body-text-align:           null;
+
+// Typography
+$font-family-base:            'Inter', sans-serif; ;
+
